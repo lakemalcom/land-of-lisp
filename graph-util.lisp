@@ -7,6 +7,11 @@
                         (attic (you are in the attic.
                                     there is a giant welding torch in the corner.))))
 
+(defparameter *edges* '((living-room (garden west door)
+                                (attic upstairs ladder))
+                        (garden (living-room east door))
+                        (attic (living-room downstairs ladder))))
+
 (defparameter *drink-order* '((bill . double-espresso)
                               (lisa . small-drip-coffee)
                               (john . medium-latte)))
