@@ -19,10 +19,6 @@
                                    :favorite-color "blue"))
 
 
-
-;;pp 164
-
-
 (defparameter *player-health* nil)
 (defparameter *player-agility* nil)
 (defparameter *player-strength* nil)
@@ -180,4 +176,4 @@
     (princ " of your health points. ")
     (decf *player-health*)))
 
-
+;; pp 183
